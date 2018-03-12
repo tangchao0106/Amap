@@ -13,7 +13,7 @@ public class OffLineMapUtils {
 			java.io.File fExternalStorageDirectory = Environment
 					.getExternalStorageDirectory();
 			java.io.File autonaviDir = new java.io.File(
-					fExternalStorageDirectory, "amapsdk");
+					fExternalStorageDirectory, "pwxsMap");
 			boolean result = false;
 			if (!autonaviDir.exists()) {
 				result = autonaviDir.mkdir();

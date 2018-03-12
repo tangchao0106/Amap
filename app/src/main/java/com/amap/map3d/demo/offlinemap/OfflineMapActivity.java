@@ -42,6 +42,8 @@ public class OfflineMapActivity extends Activity implements
 
 	private OfflineMapManager amapManager = null;// 离线地图下载控制器
 	private List<OfflineMapProvince> provinceList = new ArrayList<OfflineMapProvince>();// 保存一级目录的省直辖市
+	private List<OfflineMapProvince> provinceListnew = new ArrayList<OfflineMapProvince>();// 保存一级目录的省直辖市
+
 	// private HashMap<Object, List<OfflineMapCity>> cityMap = new
 	// HashMap<Object, List<OfflineMapCity>>();// 保存二级目录的市
 
@@ -187,8 +189,8 @@ public class OfflineMapActivity extends Activity implements
 
 		mDownloadText.setOnClickListener(this);
 		mDownloadedText.setOnClickListener(this);
-		mBackImage = (ImageView) findViewById(R.id.back_image_view);
-		mBackImage.setOnClickListener(this);
+//		mBackImage = (ImageView) findViewById(R.id.back_image_view);
+//		mBackImage.setOnClickListener(this);
 
 		// view pager 用到了所有城市list和已下载城市list所有放在最后初始化
 		mContentViewPage = (ViewPager) findViewById(R.id.content_viewpage);
@@ -221,7 +223,7 @@ public class OfflineMapActivity extends Activity implements
 		initProvinceListAndCityMap();
 		// adapter = new OfflineListAdapter(provinceList, cityMap, amapManager,
 		// OfflineMapActivity.this);
-		adapter = new OfflineListAdapter(provinceList, amapManager,
+		adapter = new OfflineListAdapter(provinceListnew, amapManager,
 				OfflineMapActivity.this);
 		// 为列表绑定数据源
 		mAllOfflineMapList.setAdapter(adapter);
@@ -229,6 +231,8 @@ public class OfflineMapActivity extends Activity implements
 		mAllOfflineMapList.setOnGroupCollapseListener(adapter);
 		mAllOfflineMapList.setOnGroupExpandListener(adapter);
 		mAllOfflineMapList.setGroupIndicator(null);
+		mAllOfflineMapList.expandGroup(0);
+
 	}
 
 	/**
@@ -300,6 +304,34 @@ public class OfflineMapActivity extends Activity implements
 		// cityMap.put(1, cityList);// 在HashMap中第1位置添加直辖市
 		// cityMap.put(2, gangaoList);// 在HashMap中第2位置添加港澳
 
+		for (int i = 0; i < provinceList.size(); i++) {
+
+			OfflineMapProvince province = provinceList.get(i);
+			Logger.d("OfflineMapActivity===initProvinceListAndCityMap=== province.getPinyin()=" + province.getPinyin());
+			if ("shaanxisheng".equals(province.getPinyin())) {
+				if (province.getCityList().size() != 1) {
+					// 普通省份
+					provinceListnew.add(province);
+					// cityMap.put(i + 3, cities);
+
+				} else {
+
+				}
+			}
+
+//            if ("zhejiangsheng".equals(province.getPinyin())) {
+//                if (province.getCityList().size() != 1) {
+//                    // 普通省份
+//                    Logger.d("OfflineMapActivity===initProvinceListAndCityMap=== i=" + i);
+//                    provinceListnew.add(province);
+//                    // cityMap.put(i + 3, cities);
+//
+//                } else {
+//
+//                }
+//            }
+
+		}
 	}
 
 	/**
