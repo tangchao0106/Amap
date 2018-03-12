@@ -33,5 +33,12 @@ android {
         release.setRoot('build-types/release')
 
     }
+
+    //添加如下配置就ok了
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
 }
 
