@@ -23,6 +23,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.amap.api.maps.AMapException;
+import com.amap.api.maps.MapsInitializer;
 import com.amap.api.maps.offlinemap.OfflineMapCity;
 import com.amap.api.maps.offlinemap.OfflineMapManager;
 import com.amap.api.maps.offlinemap.OfflineMapManager.OfflineLoadedListener;
@@ -30,6 +31,8 @@ import com.amap.api.maps.offlinemap.OfflineMapManager.OfflineMapDownloadListener
 import com.amap.api.maps.offlinemap.OfflineMapProvince;
 import com.amap.api.maps.offlinemap.OfflineMapStatus;
 import com.amap.map3d.demo.R;
+import com.amap.map3d.demo.util.OffLineMapUtils;
+import com.orhanobut.logger.Logger;
 
 /**
  * AMapV2地图中简单介绍离线地图下载
@@ -118,7 +121,8 @@ public class OfflineMapActivity extends Activity implements
 		 * 则需要在离线地图下载和使用地图页面都进行路径设置
 		 */
 		// Demo中为了其他界面可以使用下载的离线地图，使用默认位置存储，屏蔽了自定义设置
-		// MapsInitialihenger.sdcardDir =OffLineMapUtils.getSdCacheDir(this);
+		MapsInitializer.sdcardDir = OffLineMapUtils.getSdCacheDir(this);
+		Logger.d("OfflineMapActivity===onCreate: "+OffLineMapUtils.getSdCacheDir(this));
 		setContentView(R.layout.offline_map_layout);
 
 		init();
