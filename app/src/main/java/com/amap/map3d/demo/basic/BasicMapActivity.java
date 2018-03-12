@@ -14,9 +14,11 @@ import com.amap.api.maps.AMap.CancelableCallback;
 import com.amap.api.maps.AMap.OnMapClickListener;
 import com.amap.api.maps.CameraUpdateFactory;
 import com.amap.api.maps.MapView;
+import com.amap.api.maps.MapsInitializer;
 import com.amap.api.maps.model.CameraPosition;
 import com.amap.api.maps.model.LatLng;
 import com.amap.map3d.demo.R;
+import com.amap.map3d.demo.util.OffLineMapUtils;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -48,7 +50,7 @@ public class BasicMapActivity extends Activity implements OnClickListener{
          * 则需要在离线地图下载和使用地图页面都进行路径设置
          * */
 		//Demo中为了其他界面可以使用下载的离线地图，使用默认位置存储，屏蔽了自定义设置
-		//  MapsInitializer.sdcardDir =OffLineMapUtils.getSdCacheDir(this);
+//		  MapsInitializer.sdcardDir = OffLineMapUtils.getSdCacheDir(this);
 
 		mapView = (MapView) findViewById(R.id.map);
 		mapView.onCreate(savedInstanceState);// 此方法必须重写
