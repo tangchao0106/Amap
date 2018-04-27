@@ -3,3 +3,11 @@
  3.Android_Location_V1.4.0.jar架包是AMap定位包，支持Android SDK2.1及以上，
  4.MapApiServices.jar包是AMap搜索包，支持Android SDK1.6及以上，
  5.如果遇到问题，可以上技术支持论坛http://bbs.amap.com/forum.php。
+
+SHA1
+http://lbs.amap.com/faq/top/hot-questions/249
+
+2.在弹出的控制台窗口中输入 cd .android 定位到 .android 文件夹
+开发模式使用 debug.keystore，命令为：keytool -list -v -keystore debug.keystore 发布模式使用 apk 对应的 keystore，
+命令为：keytool -list -v -keystore apk的keystore 如下所示
+keytool -list -v -keystore C:\debug.keystore

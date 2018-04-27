@@ -3,63 +3,63 @@
 
     <item
         is-multidex="false"
-        jar="F:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\AMap_Search_V5.3.1_20170817.jar"
+        jar="E:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\AMap_Search_V5.3.1_20170817.jar"
         jumboMode="false"
         min-sdk-version="8"
         optimize="true"
         revision="26.0.2"
         sha1="b4e1d1d93f686f1a6efe4e49d798b27801d4d301">
-        <dex dex="F:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\transforms\preDex\release\2.jar" />
+        <dex dex="E:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\transforms\preDex\release\10.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="F:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\AMap_Location_V3.5.0_20170731.jar"
-        jumboMode="false"
-        min-sdk-version="8"
-        optimize="true"
-        revision="26.0.2"
-        sha1="a02816310bcf897ef35496950110a65b495574a7">
-        <dex dex="F:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\transforms\preDex\release\1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\tangchao\.gradle\caches\transforms-1\files-1.1\logger-2.1.1.aar\cf12230aa3873739a7aa3a6cc30d486d\jars\classes.jar"
-        jumboMode="false"
-        min-sdk-version="8"
-        optimize="true"
-        revision="26.0.2"
-        sha1="f3da801940221b852f3a3ee82bfe2a10d39e4ffa">
-        <dex dex="F:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\transforms\preDex\release\6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\Volley.jar"
-        jumboMode="false"
-        min-sdk-version="8"
-        optimize="true"
-        revision="26.0.2"
-        sha1="77faa9ffd189160d1e22c58fdf5eed0a9a08b816">
-        <dex dex="F:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\transforms\preDex\release\5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\android-support-v4.jar"
-        jumboMode="false"
-        min-sdk-version="8"
-        optimize="true"
-        revision="26.0.2"
-        sha1="307c1cc532eabbf1d135b43e5c983c9da700449d">
-        <dex dex="F:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\transforms\preDex\release\3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\Android_Map3D_SDK_V5.3.0_20170815.jar"
+        jar="E:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\Android_Map3D_SDK_V5.3.0_20170815.jar"
         jumboMode="false"
         min-sdk-version="8"
         optimize="true"
         revision="26.0.2"
         sha1="8e1bcab49134edfa6f74440488dfff14460d3a12">
-        <dex dex="F:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\transforms\preDex\release\4.jar" />
+        <dex dex="E:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\Volley.jar"
+        jumboMode="false"
+        min-sdk-version="8"
+        optimize="true"
+        revision="26.0.2"
+        sha1="77faa9ffd189160d1e22c58fdf5eed0a9a08b816">
+        <dex dex="E:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\AMap_Location_V3.5.0_20170731.jar"
+        jumboMode="false"
+        min-sdk-version="8"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a02816310bcf897ef35496950110a65b495574a7">
+        <dex dex="E:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\Msc.jar"
+        jumboMode="false"
+        min-sdk-version="8"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5915e2438818e42a766435dfbe627c88cc051b3c">
+        <dex dex="E:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        min-sdk-version="8"
+        optimize="true"
+        revision="26.0.2"
+        sha1="307c1cc532eabbf1d135b43e5c983c9da700449d">
+        <dex dex="E:\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\build\intermediates\transforms\preDex\release\11.jar" />
     </item>
 
 </items>

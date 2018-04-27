@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AMap3DDemo.iml" filepath="$PROJECT_DIR$/AMap3DDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/copy/copy.iml" filepath="$PROJECT_DIR$/copy/copy.iml" />
     </modules>
   </component>
 </project>
