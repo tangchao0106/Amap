@@ -115,12 +115,12 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 19 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="__local_aars__:/Volumes/唐超 1/core/as/gaodeditu/AMap3DMap_DemoDocs/AMap_Android_API_3DMap_Demo/android_studio/AMap3DDemo/app/libs/Volley.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Volumes/唐超 1/core/as/gaodeditu/AMap3DMap_DemoDocs/AMap_Android_API_3DMap_Demo/android_studio/AMap3DDemo/app/libs/Android_Map3D_SDK_V5.3.0_20170815.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Volumes/唐超 1/core/as/gaodeditu/AMap3DMap_DemoDocs/AMap_Android_API_3DMap_Demo/android_studio/AMap3DDemo/app/libs/AMap_Location_V3.5.0_20170731.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Users/tangchao/资料/code/ascode1/githubcode/AMap3DDemo/app/libs/Android_Map3D_SDK_V5.3.0_20170815.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Users/tangchao/资料/code/ascode1/githubcode/AMap3DDemo/app/libs/AMap_Search_V5.3.1_20170817.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Users/tangchao/资料/code/ascode1/githubcode/AMap3DDemo/app/libs/android-support-v4.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Users/tangchao/资料/code/ascode1/githubcode/AMap3DDemo/app/libs/Volley.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.orhanobut:logger-2.1.1" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Volumes/唐超 1/core/as/gaodeditu/AMap3DMap_DemoDocs/AMap_Android_API_3DMap_Demo/android_studio/AMap3DDemo/app/libs/Msc.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Volumes/唐超 1/core/as/gaodeditu/AMap3DMap_DemoDocs/AMap_Android_API_3DMap_Demo/android_studio/AMap3DDemo/app/libs/AMap_Search_V5.3.1_20170817.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:/Volumes/唐超 1/core/as/gaodeditu/AMap3DMap_DemoDocs/AMap_Android_API_3DMap_Demo/android_studio/AMap3DDemo/app/libs/android-support-v4.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Users/tangchao/资料/code/ascode1/githubcode/AMap3DDemo/app/libs/AMap_Location_V3.5.0_20170731.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Users/tangchao/资料/code/ascode1/githubcode/AMap3DDemo/app/libs/Msc.jar:unspecified@jar" level="project" />
   </component>
 </module>
