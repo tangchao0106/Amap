@@ -1,10 +1,16 @@
 package com.amap.map3d.demo.offlinemap;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Context;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -123,10 +129,10 @@ public class OfflineMapActivity extends Activity implements
 		 * 则需要在离线地图下载和使用地图页面都进行路径设置
 		 */
 		// Demo中为了其他界面可以使用下载的离线地图，使用默认位置存储，屏蔽了自定义设置
-		MapsInitializer.sdcardDir = OffLineMapUtils.getSdCacheDir(this);
-		Logger.d("OfflineMapActivity===onCreate: "+OffLineMapUtils.getSdCacheDir(this));
+//		MapsInitializer.sdcardDir = OffLineMapUtils.getSdCacheDir(this);
+//		Logger.d("OfflineMapActivity===onCreate: "+OffLineMapUtils.getSdCacheDir(this));
 		setContentView(R.layout.offline_map_layout);
-
+		Logger.d("OfflineMapActivity===onCreate:sHA1== "+sHA1(this));
 		init();
 	}
 
@@ -300,24 +306,38 @@ public class OfflineMapActivity extends Activity implements
 		gaogao.setCityList(gangaoList);
 		provinceList.set(2, gaogao);
 
-		// cityMap.put(0, gaiyaotuList);// 在HashMap中第0位置添加全国概要图
-		// cityMap.put(1, cityList);// 在HashMap中第1位置添加直辖市
-		// cityMap.put(2, gangaoList);// 在HashMap中第2位置添加港澳
+//		 cityMap.put(0, gaiyaotuList);// 在HashMap中第0位置添加全国概要图
+//		 cityMap.put(1, cityList);// 在HashMap中第1位置添加直辖市
+//		 cityMap.put(2, gangaoList);// 在HashMap中第2位置添加港澳
 
 		for (int i = 0; i < provinceList.size(); i++) {
 
 			OfflineMapProvince province = provinceList.get(i);
-			Logger.d("OfflineMapActivity===initProvinceListAndCityMap=== province.getPinyin()=" + province.getPinyin());
-			if ("shaanxisheng".equals(province.getPinyin())) {
-				if (province.getCityList().size() != 1) {
-					// 普通省份
-					provinceListnew.add(province);
-					// cityMap.put(i + 3, cities);
+			if (province.getCityList().size() != 1) {
+				// 普通省份
+				provinceListnew.add(province);
+				// cityMap.put(i + 3, cities);
 
-				} else {
+			} else {
 
-				}
 			}
+
+
+
+
+
+
+			Logger.d("OfflineMapActivity===initProvinceListAndCityMap=== province.getPinyin()=" + province.getPinyin());
+//			if ("shaanxisheng".equals(province.getPinyin())) {
+//				if (province.getCityList().size() != 1) {
+//					// 普通省份
+//					provinceListnew.add(province);
+//					// cityMap.put(i + 3, cities);
+//
+//				} else {
+//
+//				}
+//			}
 
 //            if ("zhejiangsheng".equals(province.getPinyin())) {
 //                if (province.getCityList().size() != 1) {
@@ -591,5 +611,31 @@ public class OfflineMapActivity extends Activity implements
 		initDownloadedList();
 		initViewpage();
 		dissmissDialog();
+	}
+
+	public static String sHA1(Context context) {
+		try {
+			PackageInfo info = context.getPackageManager().getPackageInfo(
+					context.getPackageName(), PackageManager.GET_SIGNATURES);
+			byte[] cert = info.signatures[0].toByteArray();
+			MessageDigest md = MessageDigest.getInstance("SHA1");
+			byte[] publicKey = md.digest(cert);
+			StringBuffer hexString = new StringBuffer();
+			for (int i = 0; i < publicKey.length; i++) {
+				String appendString = Integer.toHexString(0xFF & publicKey[i])
+						.toUpperCase(Locale.US);
+				if (appendString.length() == 1)
+					hexString.append("0");
+				hexString.append(appendString);
+				hexString.append(":");
+			}
+			String result = hexString.toString();
+			return result.substring(0, result.length()-1);
+		} catch (PackageManager.NameNotFoundException e) {
+			Logger.e("OfflineMapActivity===sHA1: " + e.getMessage());
+		} catch (NoSuchAlgorithmException e) {
+			Logger.e("OfflineMapActivity===sHA1: " + e.getMessage());
+		}
+		return null;
 	}
 }

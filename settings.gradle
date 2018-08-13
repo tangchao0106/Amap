@@ -1,1 +1,1 @@
-include ':app', ':copy'
+include ':app'

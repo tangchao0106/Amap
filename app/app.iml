@@ -42,13 +42,13 @@
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/test/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build-types/debug/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build-types/debug/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build-types/debug/assets" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build-types/debug/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build-types/debug/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build-types/debug/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/build-types/debug/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/shaders" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
@@ -70,13 +70,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
@@ -84,34 +77,50 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/build-info" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/builds" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/check-manifest" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-classes" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-runtime-classes" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-verifier" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-resources" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-support" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javaPrecompile" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/prebuild" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/reload-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/split-apk" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/splits-support" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/reports" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 19 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="__local_aars__:E.\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\Android_Map3D_SDK_V5.3.0_20170815.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:E.\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\AMap_Location_V3.5.0_20170731.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Volumes/唐超 1/core/as/gaodeditu/AMap3DMap_DemoDocs/AMap_Android_API_3DMap_Demo/android_studio/AMap3DDemo/app/libs/Volley.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Volumes/唐超 1/core/as/gaodeditu/AMap3DMap_DemoDocs/AMap_Android_API_3DMap_Demo/android_studio/AMap3DDemo/app/libs/Android_Map3D_SDK_V5.3.0_20170815.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Volumes/唐超 1/core/as/gaodeditu/AMap3DMap_DemoDocs/AMap_Android_API_3DMap_Demo/android_studio/AMap3DDemo/app/libs/AMap_Location_V3.5.0_20170731.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.orhanobut:logger-2.1.1" level="project" />
-    <orderEntry type="library" name="__local_aars__:E.\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\Msc.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:E.\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\android-support-v4.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:E.\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\Volley.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:E.\core\as\gaodeditu\AMap3DMap_DemoDocs\AMap_Android_API_3DMap_Demo\android_studio\AMap3DDemo\app\libs\AMap_Search_V5.3.1_20170817.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Volumes/唐超 1/core/as/gaodeditu/AMap3DMap_DemoDocs/AMap_Android_API_3DMap_Demo/android_studio/AMap3DDemo/app/libs/Msc.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Volumes/唐超 1/core/as/gaodeditu/AMap3DMap_DemoDocs/AMap_Android_API_3DMap_Demo/android_studio/AMap3DDemo/app/libs/AMap_Search_V5.3.1_20170817.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/Volumes/唐超 1/core/as/gaodeditu/AMap3DMap_DemoDocs/AMap_Android_API_3DMap_Demo/android_studio/AMap3DDemo/app/libs/android-support-v4.jar:unspecified@jar" level="project" />
   </component>
 </module>
