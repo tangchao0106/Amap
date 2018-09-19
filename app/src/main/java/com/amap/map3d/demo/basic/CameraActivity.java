@@ -108,7 +108,7 @@ public class CameraActivity extends Activity implements OnClickListener {
 		case R.id.Zhongguancun:
 			changeCamera(
 					CameraUpdateFactory.newCameraPosition(new CameraPosition(
-							Constants.ZHONGGUANCUN, 18, 30, 30)));
+							Constants.ZHONGGUANCUN, 10, 30, 30)));
 			aMap.clear();
 			aMap.addMarker(new MarkerOptions().position(Constants.ZHONGGUANCUN)
 					.icon(BitmapDescriptorFactory
@@ -116,14 +116,14 @@ public class CameraActivity extends Activity implements OnClickListener {
 			break;
 
 		/**
-		 * 点击“去陆家嘴”按钮响应事件
+		 * 测试
 		 */
 		case R.id.Lujiazui:
 			changeCamera(
 					CameraUpdateFactory.newCameraPosition(new CameraPosition(
-							Constants.SHANGHAI, 18, 30, 0)));
+							Constants.NANJING, 10, 30, 0)));
 			aMap.clear();
-			aMap.addMarker(new MarkerOptions().position(Constants.SHANGHAI)
+			aMap.addMarker(new MarkerOptions().position(Constants.NANJING)
 					.icon(BitmapDescriptorFactory
 							.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
 			break;

@@ -22,7 +22,7 @@ public class MarkerActivity extends Activity implements OnClickListener {
 	private MarkerOptions markerOption;
 	private AMap aMap;
 	private MapView mapView;
-	private LatLng latlng = new LatLng(39.761, 116.434);
+	private LatLng latlng = new LatLng(32.0911, 118.6609);
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
